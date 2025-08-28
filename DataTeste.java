@@ -16,7 +16,13 @@ public class DataTeste {
         d2.mes = 10;
         d2.ano = 1975;
 
-        System.out.println(d1.nome + " nasceu em: " + d1.dia + "/" + d1.mes + "/" + d1.ano);
-        System.out.println(d2.nome + " nasceu em: " + d2.dia + "/" + d2.mes + "/" + d2.ano);
+        Data d3 = new Data();
+
+        Data d4 = new Data(25, 5, 1999);
+
+        System.out.println(d1.obterData());
+        System.out.println(d2.obterData());
+        System.out.println(d3.obterData());
+        System.out.println(d4.obterData());
     }
 }
